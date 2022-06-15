@@ -1,0 +1,45 @@
+// Top nav css //
+
+.header-container{
+    max-width: 1385px;
+    margin-left: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction:row; 
+    justify-content:space-between;
+    position: relative;
+    .trait-header{
+        position: absolute;
+        left: 250px;
+        top: 25px;
+        z-index: 1;
+        width:450px;
+        height:0.1px;
+        background-color: rgba(255, 255, 255, 0.507);
+        font-size:0;
+    }
+    .ul-nav-header{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        max-width: 830px;
+        width: 100%;
+        gap: 50px;
+        font-size: 16px;
+        -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */
+        backdrop-filter: blur(15px);
+        .li-nav-header{
+            cursor: pointer;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            &:hover{
+                border-bottom: 3px solid #fff;
+                padding-bottom: 12px;
+                transition: 180ms;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.btn-explore{
+    font-family: 'Bellefair', serif;
+    font-size:32px;
+    background-color: #fff;
+    width: 247px;
+    height: 247px;
+    border-radius:247px;
+    border: none;
+    cursor: pointer;
+    transition: 1500ms;
+    &:hover{
+        box-shadow: 0px 0px 1px 40px rgba(255, 255, 255, 0.178);
+        // transform: scale(1.05);
+        transition: 1500ms;
+    }
+    
+}
