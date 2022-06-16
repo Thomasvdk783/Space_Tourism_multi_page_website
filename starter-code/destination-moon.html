@@ -1,37 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/shared/logo.svg"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="destinations-body">
+    <header class="header-container">
+      <figure class="figure-img-header">
+        <img src="./assets/shared/logo.svg" alt="logo website" />
+      </figure>
+      <div class="trait-header"></div>
+      <ul class="ul-nav-header">
+        <li class="li-nav-header li-nav-1"><a href="./"><span>00</span> Home</a></li>
+        <li class="li-nav-header li-nav-2">
+          <a href="./destination-moon.html"><span>01</span> Destination</a>
+        </li>
+        <li class="li-nav-header li-nav-3"><a href="#"><span>02</span> Crew</a></li>
+        <li class="li-nav-header li-nav-4"><a href="#"><span>03</span> Technology</a></li>
+      </ul>
+    </header>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <main class="main-destinations">
+      <h5 class="title-top-destination">
+        <span class="number-destination">01</span> PICK YOUR DESTINATION
+      </h5>
+      <section class="container-destinations">
+        <section class="section-left-destinations">
+          <figure class="figure-img-destination">
+            <img
+              class="img-destination"
+              src="./assets/destination/image-moon.webp"
+              alt="the moon destination"
+            />
+          </figure>
+        </section>
 
-  01 Pick your destination
+        <section class="section-right-destinations">
+          <ul class="ul-nav-destinations">
+            <li class="li-nav-destinations">MOON</li>
+            <li class="li-nav-destinations">MARS</li>
+            <li class="li-nav-destinations">EUROPA</li>
+            <li class="li-nav-destinations">TITAN</li>
+          </ul>
+          <h1 class="title-destinations">MOON</h1>
+          <p class="text-description-destination">
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites.
+          </p>
+          <div class="trait-destinations">
+            <!-- trait -->
+          </div>
+          <section class="container-bottom-infos-destinations">
+            <div class="container-info-destinations">
+              <h5 class="title-info-destination">AVG. DISTANCE</h5>
+              <h2 class="data-destination">384,400 KM</h2>
+            </div>
+            <div class="container-info-destinations">
+              <h5 class="title-info-destination">EST. TRAVEL TIME</h5>
+              <h2 class="data-destination">3 DAYS</h2>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
 
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
-</body>
+  <script type="module" src="./Javascript/destination.js"></script>
 </html>

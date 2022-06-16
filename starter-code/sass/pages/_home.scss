@@ -1,6 +1,12 @@
 // css for home page elements //
 
-main{
+.index-body{
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size:cover;
+}
+
+
+.main-home-page{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
