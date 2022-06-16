@@ -1,0 +1,44 @@
+// style for technology page //
+
+.body-technology{
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-main-technology{
+    display:flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 70px;
+    .title-techology{
+        font-size: 28px;
+        font-weight: 400;
+        .number-h5-technology{
+            font-size: 28px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.384);
+        }
+    }
+    .container-content-technology{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items:center;
+        max-width: 900px;
+        width: 100%;
+        margin-left:auto;
+        margin-right:0;
+        .switch-numbers{
+            display:flex;
+            flex-direction:column;
+        }
+        .container-info-page{
+            display:flex;
+            flex-direction:column;
+            justify-content: flex-start;
+        }
+    }
+}
+
