@@ -11,9 +11,9 @@
     .trait-header{
         position: absolute;
         left: 180px;
-        top: 25px;
+        top: 35px;
         z-index: 1;
-        width:450px;
+        width:420px;
         height:0.1px;
         background-color: rgba(255, 255, 255, 0.507);
         font-size:0;
@@ -29,18 +29,19 @@
         gap: 50px;
         font-size: 16px;
         letter-spacing: 3px;
-        -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */
-        backdrop-filter: blur(15px);
+        background-color: #9797972d;
         .li-nav-header{
             cursor: pointer;
-            padding-bottom: 15px;
-            padding-top: 15px;
+            padding-bottom: 25px;
+            padding-top: 25px;
             &:hover{
                 border-bottom: 3px solid #fff;
-                padding-bottom: 12px;
+                padding-bottom: 22px;
                 transition: 180ms;
             }
-            
+            .weight-number-nav-header{
+                font-weight: 700;
+            }
         }
     }
 }
