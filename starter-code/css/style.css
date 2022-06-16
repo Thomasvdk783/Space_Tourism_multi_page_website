@@ -244,4 +244,74 @@ a {
   font-weight: 400;
 }
 
+.body-crew {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+  max-width: 1440px;
+}
+
+.main-container-crew {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  margin-top: 70px;
+  height: 100%;
+  max-height: 695px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 120px;
+}
+.main-container-crew .container-crew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 100px;
+}
+.main-container-crew .container-crew .title-top-crew {
+  width: 100%;
+  font-size: 28px;
+  letter-spacing: 4.72px;
+  font-weight: 400;
+}
+.main-container-crew .container-crew .title-top-crew .number-title-top {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 4.72px;
+  color: rgba(255, 255, 255, 0.527);
+}
+.main-container-crew .container-crew .section-left-crew {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 500px;
+}
+.main-container-crew .container-crew .section-left-crew .title-job-crew {
+  font-size: 32px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.514);
+}
+.main-container-crew .container-crew .section-left-crew .title-name-member-crew {
+  font-size: 56px;
+  font-weight: 400;
+}
+.main-container-crew .container-crew .section-left-crew .text-intro-member-crew {
+  color: #D0D6F9;
+  font-size: 18px;
+  line-height: 32pt;
+}
+.main-container-crew .container-crew .section-right-crew {
+  display: flex;
+  max-width: 400px;
+}
+.main-container-crew .container-crew .section-right-crew .figure-crew-img .img-crew {
+  position: absolute;
+  bottom: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
