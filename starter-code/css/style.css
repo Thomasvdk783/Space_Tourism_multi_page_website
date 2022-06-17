@@ -255,7 +255,7 @@ a {
 .main-container-crew {
   display: flex;
   flex-direction: row;
-  align-items: space-between;
+  align-items: flex-start;
   justify-content: center;
   margin-top: 70px;
   height: 100%;
@@ -263,6 +263,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   gap: 120px;
+  position: relative;
 }
 .main-container-crew .container-crew {
   display: flex;
@@ -307,11 +308,30 @@ a {
   font-size: 18px;
   line-height: 32pt;
 }
-.main-container-crew .container-crew .section-right-crew {
+.main-container-crew .container-crew .container-btn-slide-crew {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.main-container-crew .container-crew .container-btn-slide-crew .btn-slide-crew {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.315);
+  border: none;
+}
+.main-container-crew .container-crew .container-btn-slide-crew .btn-slide-crew:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.main-container-crew .section-right-crew {
   display: flex;
   max-width: 400px;
 }
-.main-container-crew .container-crew .section-right-crew .figure-crew-img .img-crew {
+.main-container-crew .section-right-crew .figure-crew-img {
+  position: relative;
+}
+.main-container-crew .section-right-crew .figure-crew-img .img-crew {
   position: absolute;
   bottom: 0px;
 }
