@@ -1,0 +1,19 @@
+// style for btn technology page //
+
+.btn-switch-numbers{
+    width:80px;
+    height: 80px;
+    border-radius: 100%;
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
+    &:hover{
+        background-color: #fff;
+        cursor: pointer;
+        color: #000;
+        transition: 180ms;
+        border-color: #fff;
+    }
+}
