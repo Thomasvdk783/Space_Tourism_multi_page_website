@@ -79,6 +79,9 @@
                     border-bottom: 3px solid #fff;
                     cursor: pointer;
                 }
+                &:focus{
+                    color: #fff;
+                }
             }
         }
         .title-destinations{

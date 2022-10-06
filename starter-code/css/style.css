@@ -226,6 +226,9 @@ a {
   border-bottom: 3px solid #fff;
   cursor: pointer;
 }
+.main-destinations .container-destinations .section-right-destinations .ul-nav-destinations .li-nav-destinations:focus {
+  color: #fff;
+}
 .main-destinations .container-destinations .section-right-destinations .title-destinations {
   font-size: 100px;
   font-weight: lighter;

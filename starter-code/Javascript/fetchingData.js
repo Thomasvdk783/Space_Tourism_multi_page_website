@@ -2,7 +2,7 @@
 
 // fetch initialisation //
 
-export const fetchDatasDestinations = async () => {
+export const fetchDatas = async () => {
     const responseJSON = await fetch("./data.json")
     return responseJSON.json()
 }
