@@ -15,13 +15,13 @@ const initDatasTechnology = async () => {
     console.log(mainInfosTechnology)
 
     const technologyContent = `
-    <section>
+    <div>
         <h6 class="title-h6">THE TERMINOLOGY...</h6>
-        <h1 class="title-lauch-vehicle">LAUNCH VEHICLE</h1>
+        <h1 class="h1-title">LAUNCH VEHICLE</h1>
         <P class="text-infos">
         ${technology[0]['description']}
         </P>
-    </section>
+    </div>
 
     <figure class="figure-technology">
         <img class="img-technology" src="${technology[0]['images']['portrait']}" alt="space ship illustration">
@@ -30,10 +30,14 @@ const initDatasTechnology = async () => {
     mainInfosTechnology.innerHTML = technologyContent
 
     btnOneTechnology.addEventListener('click', () =>{
+        btnOneTechnology.classList.add('active')
+        btnTwoTechnology.classList.remove('active')
+        btnThreeTechnology.classList.remove('active')
+
         const technologyContent = `
         <section>
             <h6 class="title-h6">THE TERMINOLOGY...</h6>
-            <h1 class="title-lauch-vehicle">${technology[0]['name']}</h1>
+            <h1 class="h1-title">${technology[0]['name']}</h1>
             <P class="text-infos">
             ${technology[0]['description']}
             </P>
@@ -49,10 +53,13 @@ const initDatasTechnology = async () => {
 
     // secont Btn technology
     btnTwoTechnology.addEventListener('click', () =>{
+        btnOneTechnology.classList.remove('active')
+        btnTwoTechnology.classList.add('active')
+        btnThreeTechnology.classList.remove('active')
         const technologyContent = `
         <section>
             <h6 class="title-h6">THE TERMINOLOGY...</h6>
-            <h1 class="title-lauch-vehicle">${technology[1]['name']}</h1>
+            <h1 class="h1-title">${technology[1]['name']}</h1>
             <P class="text-infos">
             ${technology[1]['description']}
             </P>
@@ -66,10 +73,13 @@ const initDatasTechnology = async () => {
     })
 
     btnThreeTechnology.addEventListener('click', () =>{
+        btnOneTechnology.classList.remove('active')
+        btnTwoTechnology.classList.remove('active')
+        btnThreeTechnology.classList.add('active')
         const technologyContent = `
         <section>
             <h6 class="title-h6">THE TERMINOLOGY...</h6>
-            <h1 class="title-lauch-vehicle">${technology[2]['name']}</h1>
+            <h1 class="h1-title">${technology[2]['name']}</h1>
             <P class="text-infos">
             ${technology[2]['description']}
             </P>

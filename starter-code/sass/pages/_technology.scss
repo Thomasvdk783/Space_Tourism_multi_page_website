@@ -31,6 +31,8 @@
         display:flex;
         flex-direction:row;
         align-items:center;
+        justify-content: space-between;
+        gap: 200px;
         max-width: 1440px;
         width: 100%;
         margin-right:0;
@@ -42,17 +44,16 @@
         }
         .container-info-page{
             display:flex;
-            flex-direction:column;
-            justify-content: flex-start;
-            max-width:480px;
-            padding-right: 250px;
+            flex-direction:row;
+            justify-content: space-between;
+            align-items: center;
             .title-h6{
                 font-size:16px;
                 color:#D0D6F9;
                 font-weight:400; 
                 letter-spacing: 2.7px;
             }
-            .title-lauch-vehicle{
+            .h1-title{
                 font-size: 56px;
                 color: #fff;
                 font-weight: 400;
@@ -62,6 +63,12 @@
                 font-weight: 400;
                 color:#D0D6F9;
                 line-height: 32px;
+                width: 150px;
+            }
+            .figure-technology{
+                display: flex;
+                justify-content: flex-end;
+                margin-right: -50px;
             }
         }
     }

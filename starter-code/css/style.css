@@ -56,6 +56,11 @@ a {
   border-color: #fff;
 }
 
+.active {
+  background-color: #fff;
+  color: #000;
+}
+
 .header-container {
   max-width: 1385px;
   margin-left: 55px;
@@ -385,6 +390,8 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  gap: 200px;
   max-width: 1440px;
   width: 100%;
   margin-right: 0;
@@ -397,10 +404,9 @@ a {
 }
 .container-main-technology .container-content-technology .container-info-page {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-width: 480px;
-  padding-right: 250px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .container-main-technology .container-content-technology .container-info-page .title-h6 {
   font-size: 16px;
@@ -408,7 +414,7 @@ a {
   font-weight: 400;
   letter-spacing: 2.7px;
 }
-.container-main-technology .container-content-technology .container-info-page .title-lauch-vehicle {
+.container-main-technology .container-content-technology .container-info-page .h1-title {
   font-size: 56px;
   color: #fff;
   font-weight: 400;
@@ -418,6 +424,12 @@ a {
   font-weight: 400;
   color: #D0D6F9;
   line-height: 32px;
+  width: 150px;
+}
+.container-main-technology .container-content-technology .container-info-page .figure-technology {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -50px;
 }
 
 /*# sourceMappingURL=style.css.map */
