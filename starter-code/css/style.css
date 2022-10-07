@@ -357,6 +357,9 @@ a {
 .main-container-crew .section-right-crew .figure-crew-img .img-crew {
   bottom: 0px;
 }
+.main-container-crew .active-btn-crew {
+  background-color: #fff;
+}
 
 .body-technology {
   background-image: url("../assets/technology/background-technology-desktop.jpg");

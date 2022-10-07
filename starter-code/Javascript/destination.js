@@ -1,6 +1,6 @@
 'use strict';
 
-
+import { fetchDatas } from './fetchingData.js'
 
 const initDatasDestinations = async () => {
     const response = await fetchDatas()
