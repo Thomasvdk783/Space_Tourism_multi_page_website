@@ -73,14 +73,23 @@
                 color:#D0D6F9;
                 padding-bottom: 10px;
                 transition: 180ms;
+                border-bottom: 3px solid transparent;
                 &:hover {
                     padding-bottom: 7px;
                     color: #fff;
                     border-bottom: 3px solid #fff;
                     cursor: pointer;
+                    transition: 180ms;
                 }
                 &:focus{
                     color: #fff;
+                }
+                .active-destination {
+                    padding-bottom: 7px;
+                    color: #fff;
+                    border-bottom: 3px solid #fff;
+                    cursor: pointer;
+                    transition: 180ms;
                 }
             }
         }

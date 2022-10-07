@@ -224,15 +224,24 @@ a {
   color: #D0D6F9;
   padding-bottom: 10px;
   transition: 180ms;
+  border-bottom: 3px solid transparent;
 }
 .main-destinations .container-destinations .section-right-destinations .ul-nav-destinations .li-nav-destinations:hover {
   padding-bottom: 7px;
   color: #fff;
   border-bottom: 3px solid #fff;
   cursor: pointer;
+  transition: 180ms;
 }
 .main-destinations .container-destinations .section-right-destinations .ul-nav-destinations .li-nav-destinations:focus {
   color: #fff;
+}
+.main-destinations .container-destinations .section-right-destinations .ul-nav-destinations .li-nav-destinations .active-destination {
+  padding-bottom: 7px;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+  transition: 180ms;
 }
 .main-destinations .container-destinations .section-right-destinations .title-destinations {
   font-size: 100px;
